@@ -1,0 +1,250 @@
+ISO3166A2,ISO3166A3,ISO3166N3,FIPS104,ISOen_name,UNc_latitude,UNc_longitude,continent,population
+AF, AFG,4, AF, Afghanistan,34.49,69.17, AS,30419928
+AX, ALA,248, , Aland Islands,60.15,20, EU,28007
+AL, ALB,8, AL, Albania,41.37,19.81, EU,3002859
+DZ, DZA,12, AG, Algeria,36.71,3.08, AF,35406303
+AS, ASM,16, AQ, American Samoa, , , OC,68061
+AD, AND,20, AN, Andorra,42.47,1.59, EU,85082
+AO, AGO,24, AO, Angola,-8.89,13.27, AF,18056072
+AI, AIA,660, AV, Anguilla, , , NA,15423
+AQ, ATA,10, AY, Antarctica, , , AN,-1
+AG, ATG,28, AC, Antigua and Barbuda,17.12,-61.8, NA,89018
+AR, ARG,32, AR, Argentina,-34.58,-58.44, SA,42192494
+AM, ARM,51, AM, Armenia,40.18,44.47, AS,2970495
+AW, ABW,533, AA, Aruba, , , NA,107635
+AU, AUS,36, AS, Australia,-35.27,149.08, OC,22015576
+AT, AUT,40, AU, Austria,48.24,16.43, EU,8219743
+AZ, AZE,31, AJ, Azerbaijan,40.41,49.95, AS,9493600
+BS, BHS,44, BF, Bahamas, , , NA,316182
+BH, BHR,48, BA, Bahrain,26.19,50.5, AS,1248348
+BD, BGD,50, BQ, Bangladesh,23.8,90.44, AS,161083804
+BB, BRB,52, BB, Barbados,13.11,-59.58, NA,287733
+BY, BLR,112, BO, Belarus,53.84,27.56, EU,9542883
+BE, BEL,56, BE, Belgium,50.82,4.47, EU,10438353
+BZ, BLZ,84, BH, Belize,17.2,-88.7, NA,327719
+BJ, BEN,204, BN, Benin,6.54,2.66, AF,9598787
+BM, BMU,60, BD, Bermuda, , , NA,69080
+BT, BTN,64, BT, Bhutan,27.48,89.54, AS,716896
+BO, BOL,68, BL," Bolivia, Plurinational State of",-16.48,-68.13, SA,10290003
+BQ, BES,535, ," Bonaire, Sint Eustatius and Saba", , , NA,0
+BA, BIH,70, BK, Bosnia and Herzegovina,43.83,18.5, EU,4622292
+BW, BWA,72, BC, Botswana,-24.69,26.03, AF,2098018
+BV, BVT,74, BV, Bouvet Island, , , AN,-1
+BR, BRA,76, BR, Brazil,-15.87,-47.93, SA,205716890
+IO, IOT,86, IO, British Indian Ocean Territory, , , AS,4000
+BN, BRN,96, BX, Brunei Darussalam,4.88,114.85, AS,408786
+BG, BGR,100, BU, Bulgaria,42.66,23.34, EU,7037935
+BF, BFA,854, UV, Burkina Faso,12.31,-1.55, AF,17275115
+BI, BDI,108, BY, Burundi,-3.34,29.4, AF,10557259
+KH, KHM,116, CB, Cambodia,11.56,104.9, AS,14952665
+CM, CMR,120, CM, Cameroon,3.89,11.55, AF,20129878
+CA, CAN,124, CA, Canada,45.38,-75.7, NA,34300083
+CV, CPV,132, CV, Cape Verde,14.95,-23.54, AF,523568
+KY, CYM,136, CJ, Cayman Islands, , , NA,52560
+CF, CAF,140, CT, Central African Republic,4.37,18.56, AF,5057208
+TD, TCD,148, CD, Chad,12.17,15.08, AF,10975648
+CL, CHL,152, CI, Chile,-33.4,-70.59, SA,17067369
+CN, CHN,156, CH, China,39.92,116.33, AS,1343239923
+CX, CXR,162, KT, Christmas Island, , , AS,1496
+CC, CCK,166, CK, Cocos (Keeling) Islands, , , AS,596
+CO, COL,170, CO, Colombia,4.58,-74.09, SA,45239079
+KM, COM,174, CN, Comoros,-11.75,43.31, AF,737284
+CG, COG,178, CF, Congo,-4.24,15.2, AF,4125916
+CD, COD,180, CG," Congo, The Democratic Republic of the",-1,15, AF,73599190
+CK, COK,184, CW, Cook Islands, , , OC,10777
+CR, CRI,188, CS, Costa Rica,9.99,-84.04, NA,4636348
+CI, CIV,384, IV, Cote d'Ivoire,6.82,-5.28, AF,21952093
+HR, HRV,191, HR, Croatia,45.81,15.98, EU,4480043
+CU, CUB,192, CU, Cuba,23.05,-82.35, NA,11075244
+CW, CUW,531, UC, Curacao, , , NA,142180
+CY, CYP,196, CY, Cyprus,35.17,33.33, AS,1138071
+CZ, CZE,203, EZ, Czech Republic,50.05,14.54, EU,10177300
+DK, DNK,208, DA, Denmark,55.68,12.53, EU,5543453
+DJ, DJI,262, DJ, Djibouti,11.54,43.14, AF,774389
+DM, DMA,212, DO, Dominica,15.28,-61.33, NA,73126
+DO, DOM,214, DR, Dominican Republic,18.43,-69.87, NA,10088598
+EC, ECU,218, EC, Ecuador,-0.21,-78.54, SA,15223680
+EG, EGY,818, EG, Egypt,30.09,31.3, AF,83688164
+SV, SLV,222, ES, El Salvador,13.67,-89.24, NA,6090646
+GQ, GNQ,226, EK, Equatorial Guinea,3.72,8.79, AF,685991
+ER, ERI,232, ER, Eritrea,15.32,38.92, AF,6086495
+EE, EST,233, EN, Estonia,59.43,24.75, EU,1274709
+ET, ETH,231, ET, Ethiopia,9.02,38.74, AF,93815992
+FK, FLK,238, FK, Falkland Islands (Malvinas), , , SA,3140
+FO, FRO,234, FO, Faroe Islands, , , EU,49483
+FJ, FJI,242, FJ, Fiji,-18.12,178.49, OC,890057
+FI, FIN,246, FI, Finland,60.2,24.92, EU,5262930
+FR, FRA,250, FR, France,48.81,2.48, EU,65630692
+GF, GUF,254, FG, French Guiana, , , SA,217000
+PF, PYF,258, FP, French Polynesia, , , OC,274512
+TF, ATF,260, FS, French Southern Territories, , , AN,-1
+GA, GAB,266, GB, Gabon,0.4,9.55, AF,1608321
+GM, GMB,270, GA, Gambia,13.41,-16.62, AF,1840454
+GE, GEO,268, GG, Georgia,41.68,44.8, AS,4570934
+DE, DEU,276, GM, Germany,52.47,13.62, EU,81305856
+GH, GHA,288, GH, Ghana,5.57,-0.25, AF,25241998
+GI, GIB,292, GI, Gibraltar, , , EU,29034
+GR, GRC,300, GR, Greece,37.99,23.69, EU,10767827
+GL, GRL,304, GL, Greenland, , , NA,57695
+GD, GRD,308, GJ, Grenada,12.08,-61.7, NA,109011
+GP, GLP,312, GP, Guadeloupe, , , NA,405500
+GU, GUM,316, GQ, Guam, , , OC,183286
+GT, GTM,320, GT, Guatemala,14.62,-90.55, NA,14099032
+GG, GGY,831, GK, Guernsey, , , EU,64775
+GN, GIN,324, GV, Guinea,9.52,-13.67, AF,10884958
+GW, GNB,624, PU, Guinea-Bissau,11.89,-15.62, AF,1628603
+GY, GUY,328, GY, Guyana,6.78,-58.12, SA,741908
+HT, HTI,332, HA, Haiti,18.52,-72.28, NA,9801664
+HM, HMD,334, HM, Heard Island and McDonald Islands, , , OC,-1
+VA, VAT,336, VT, Holy See (Vatican City State), , , EU,836
+HN, HND,340, HO, Honduras,14.03,-87.2, NA,8296693
+HK, HKG,344, HK, Hong Kong, , , AS,7153519
+HU, HUN,348, HU, Hungary,47.45,19.14, EU,9958453
+IS, ISL,352, IC, Iceland,64.08,-21.88, EU,313183
+IN, IND,356, IN, India,28.66,77.13, AS,1205073612
+ID, IDN,360, ID, Indonesia,-6.18,106.77, AS,248216193
+IR, IRN,364, IR," Iran, Islamic Republic of",35.67,51.39, AS,78868711
+IQ, IRQ,368, IZ, Iraq,33.37,44.37, AS,31129225
+IE, IRL,372, EI, Ireland,53.44,-6.21, EU,4722028
+IM, IMN,833, IM, Isle of Man, , , EU,85421
+IL, ISR,376, IS, Israel,31.23,34.78, AS,7590758
+IT, ITA,380, IT, Italy,41.9,12.56, EU,61261254
+JM, JAM,388, JM, Jamaica,17.99,-76.74, NA,2889187
+JP, JPN,392, JA, Japan,35.68,139.68, AS,127368088
+JE, JEY,832, JE, Jersey, , , EU,94949
+JO, JOR,400, JO, Jordan,31.9,35.98, AS,6508887
+KZ, KAZ,398, KZ, Kazakhstan,51.17,71.34, AS,17522010
+KE, KEN,404, KE, Kenya,-1.25,36.89, AF,43013341
+KI, KIR,296, KR, Kiribati,1.31,173.02, OC,101998
+KP, PRK,408, KN," Korea, Democratic People's Republic of",39.03,125.74, AS,24589122
+KR, KOR,410, KS," Korea, Republic of", , , AS,48860500
+KW, KWT,414, KU, Kuwait,29.31,47.96, AS,2646314
+KG, KGZ,417, KG, Kyrgyzstan,42.79,74.58, AS,5496737
+LA, LAO,418, LA, Lao People's Democratic Republic,18.02,102.64, AS,6586266
+LV, LVA,428, LG, Latvia,56.99,24, EU,2191580
+LB, LBN,422, LE, Lebanon,33.8,35.52, AS,4140289
+LS, LSO,426, LT, Lesotho,-29.32,27.54, AF,1930493
+LR, LBR,430, LI, Liberia,6.27,-10.7, AF,3887886
+LY, LBY,434, LY, Libyan Arab Jamahiriya,32.85,13.19, AF,6733620
+LI, LIE,438, LS, Liechtenstein,47.14,9.52, EU,36713
+LT, LTU,440, LH, Lithuania,54.68,25.27, EU,3525761
+LU, LUX,442, LU, Luxembourg,49.59,6.14, EU,509074
+MO, MAC,446, MC, Macao, , , AS,578025
+MK, MKD,807, MK," Macedonia, The Former Yugoslav Republic of",42,21.51, EU,2082370
+MG, MDG,450, MA, Madagascar,-18.9,47.53, AF,22585517
+MW, MWI,454, MI, Malawi,-13.99,33.77, AF,16323044
+MY, MYS,458, MY, Malaysia,3.07,101.66, AS,29179952
+MV, MDV,462, MV, Maldives,4.14,73.46, AS,394451
+ML, MLI,466, ML, Mali,12.65,-8.03, AF,14533511
+MT, MLT,470, MT, Malta,35.92,14.5, EU,409836
+MH, MHL,584, RM, Marshall Islands,7.1,171.38, OC,68480
+MQ, MTQ,474, MB, Martinique, , , NA,397730
+MR, MRT,478, MR, Mauritania,18.06,-15.95, AF,3359185
+MU, MUS,480, MP, Mauritius,-20.14,57.51, AF,1313095
+YT, MYT,175, MF, Mayotte, , , AF,231139
+MX, MEX,484, MX, Mexico,19.41,-99.17, NA,114975406
+FM, FSM,583, FM," Micronesia, Federated States of",6.92,158.15, OC,106487
+MD, MDA,498, MD," Moldova, Republic of", , , EU,3656843
+MC, MCO,492, MN, Monaco,43.75,7.43, EU,30510
+MN, MNG,496, MG, Mongolia,48.03,106.95, AS,3179997
+ME, MNE,499, MJ, Montenegro,42.36,19.25, EU,657394
+MS, MSR,500, MH, Montserrat, , , NA,5164
+MA, MAR,504, MO, Morocco,33.95,-6.86, AF,32309239
+MZ, MOZ,508, MZ, Mozambique,-25.89,32.6, AF,23515934
+MM, MMR,104, BM, Myanmar,19.75,96.1, AS,54584650
+NA, NAM,516, WA, Namibia,-22.61,17.05, AF,2165828
+NR, NRU,520, NR, Nauru,-0.54,166.94, OC,9378
+NP, NPL,524, NP, Nepal,27.72,85.32, AS,29890686
+NL, NLD,528, NL, Netherlands,52.41,4.89, EU,16730632
+NC, NCL,540, NC, New Caledonia, , , OC,260166
+NZ, NZL,554, NZ, New Zealand,-41.27,174.71, OC,4327944
+NI, NIC,558, NU, Nicaragua,12.13,-86.27, NA,5727707
+NE, NER,562, NG, Niger,13.53,2.17, AF,17078839
+NG, NGA,566, NI, Nigeria,9.21,7.17, AF,170123740
+NU, NIU,570, NE, Niue, , , OC,1269
+NF, NFK,574, NF, Norfolk Island, , , OC,2182
+MP, MNP,580, CQ, Northern Mariana Islands, , , OC,44582
+NO, NOR,578, NO, Norway,59.91,10.84, EU,4707270
+PS, PSE,275, , Occupied Palestinian Territory, , , AS,4199083
+OM, OMN,512, MU, Oman,23.5,58.57, AS,3090150
+PK, PAK,586, PK, Pakistan,33.7,73.01, AS,190291129
+PW, PLW,585, PS, Palau,7.33,134.48, OC,21032
+PA, PAN,591, PM, Panama,9.06,-79.44, NA,3510045
+PG, PNG,598, PP, Papua New Guinea,-9.45,147.2, OC,6310129
+PY, PRY,600, PA, Paraguay,-25.28,-57.51, SA,6541591
+PE, PER,604, PE, Peru,-12.07,-77.01, SA,29549517
+PH, PHL,608, RP, Philippines,14.62,121, AS,103775002
+PN, PCN,612, PC, Pitcairn, , , OC,48
+PL, POL,616, PL, Poland,52.28,21.08, EU,38415284
+PT, PRT,620, PO, Portugal,38.76,-9.17, EU,10781459
+PR, PRI,630, RQ, Puerto Rico, , , NA,3998905
+QA, QAT,634, QA, Qatar,25.22,51.5, AS,1951591
+RE, REU,638, RW, Reunion, , , AF,827000
+RO, ROU,642, RO, Romania,44.46,26.11, EU,21848504
+RU, RUS,643, RS, Russian Federation,55.78,37.49, EU,138082178
+RW, RWA,646, RW, Rwanda,-1.96,30.09, AF,11689696
+BL, BLM,652, TB, Saint Barthelemy, , , NA,7332
+SH, SHN,654, SH," Saint Helena, Ascension and Tristan da Cunha", , , AF,7728
+KN, KNA,659, SC, Saint Kitts and Nevis,17.31,-62.7, NA,50726
+LC, LCA,662, ST, Saint Lucia,14.02,-60.96, NA,162178
+MF, MAF,663, RN, Saint Martin (French part), , , NA,30959
+PM, SPM,666, SB, Saint Pierre and Miquelon, , , NA,5831
+VC, VCT,670, VC, Saint Vincent and The Grenadines,13.19,-61.22, NA,103537
+WS, WSM,882, WS, Samoa,-13.85,-171.79, OC,194320
+SM, SMR,674, SM, San Marino,43.92,12.47, EU,32140
+ST, STP,678, TP, Sao Tome and Principe,0.35,6.75, AF,183176
+SA, SAU,682, SA, Saudi Arabia,24.58,46.71, AS,26534504
+SN, SEN,686, SG, Senegal,14.73,-17.49, AF,12969606
+RS, SRB,688, RI, Serbia,44.72,20.54, EU,7276604
+SC, SYC,690, SE, Seychelles,-4.66,55.42, AF,90024
+SL, SLE,694, SL, Sierra Leone,8.44,-13.2, AF,5485998
+SG, SGP,702, SN, Singapore,1.29,103.86, AS,5353494
+SX, SXM,534, NN, Sint Maarten (Dutch part), , , NA,37429
+SK, SVK,703, LO, Slovakia,48.13,17.15, EU,5483088
+SI, SVN,705, SI, Slovenia,46.05,14.55, EU,1996617
+SB, SLB,90, BP, Solomon Islands,-9.53,159.98, OC,584578
+SO, SOM,706, SO, Somalia,2.08,45.32, AF,10085638
+ZA, ZAF,710, SF, South Africa,-25.72,28.25, AF,48810427
+GS, SGS,239, SX, South Georgia and the South Sandwich Islands, , , AN,-1
+SS, SSD,728, , South Sudan,0,0, AF,10625176
+ES, ESP,724, SP, Spain,40.45,-3.68, EU,47042984
+LK, LKA,144, CE, Sri Lanka,6.9,79.91, AS,21481334
+SD, SDN,729, SU, Sudan,15.56,32.56, AF,34206710
+SR, SUR,740, NS, Suriname,5.83,-55.2, SA,560157
+SJ, SJM,744, SV, Svalbard and Jan Mayen, , , EU,2067
+SZ, SWZ,748, WZ, Swaziland,-26.36,31.15, AF,1386914
+SE, SWE,752, SW, Sweden,59.33,18.06, EU,9103788
+CH, CHE,756, SZ, Switzerland,46.92,7.48, EU,7655628
+SY, SYR,760, SY, Syrian Arab Republic,33.5,36.29, AS,22530746
+TW, TWN,158, TW," Taiwan, Province of China", , , AS,23113901
+TJ, TJK,762, TI, Tajikistan,38.6,68.79, AS,7768385
+TZ, TZA,834, TZ," Tanzania, United Republic of",-6.16,35.75, AF,43601796
+TH, THA,764, TH, Thailand,13.72,100.58, AS,67091089
+TL, TLS,626, TT, Timor-Leste,-8.65,125.6, AS,1201255
+TG, TGO,768, TO, Togo,6.15,1.24, AF,6961049
+TK, TKL,772, TL, Tokelau, , , OC,1368
+TO, TON,776, TN, Tonga,-21.13,-175.22, OC,106146
+TT, TTO,780, TD, Trinidad and Tobago,10.7,-61.47, NA,1226383
+TN, TUN,788, TS, Tunisia,36.79,10.15, AF,10732900
+TR, TUR,792, TU, Turkey,39.91,32.79, AS,79749461
+TM, TKM,795, TX, Turkmenistan,37.92,58.41, AS,5054828
+TC, TCA,796, TK, Turks and Caicos Islands, , , NA,46335
+TV, TUV,798, TV, Tuvalu,-8.46,179.21, OC,10619
+UG, UGA,800, UG, Uganda,0.32,32.6, AF,35873253
+UA, UKR,804, UP, Ukraine,50.38,30.53, EU,44854065
+AE, ARE,784, AE, United Arab Emirates,24.44,54.39, AS,5314317
+GB, GBR,826, UK, United Kingdom,51.58,-0.13, EU,63047162
+US, USA,840, US, United States,38.82,-76.91, NA,313847465
+UM, UMI,581, , United States Minor Outlying Islands, , , OC,316
+UY, URY,858, UY, Uruguay,-34.86,-56.2, SA,3316328
+UZ, UZB,860, UZ, Uzbekistan,41.24,69.3, AS,28394180
+VU, VUT,548, NH, Vanuatu,-17.72,168.36, OC,227574
+VE, VEN,862, VE," Venezuela, Bolivarian Republic of",10.47,-66.9, SA,28047938
+VN, VNM,704, VM, Viet Nam,21.01,105.8, AS,91519289
+VG, VGB,92, VI," Virgin Islands, British",18.4,-64.6, NA,31148
+VI, VIR,850, VQ," Virgin Islands, U.S.", , , NA,109574
+WF, WLF,876, WF, Wallis and Futuna, , , OC,15453
+EH, ESH,732, WI, Western Sahara,24.5,-13, AF,522928
+YE, YEM,887, YM, Yemen,15.4,44.19, AS,24771809
+ZM, ZMB,894, ZA, Zambia,-15.4,28.31, AF,14309466
+ZW, ZWE,716, ZI, Zimbabwe,-17.8,31.03, AF,12619600
