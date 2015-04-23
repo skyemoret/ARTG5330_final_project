@@ -180,6 +180,7 @@ function draw(antarcticfacilities){
     var facilities = svg.selectAll('.facility')
         .data(nodesArray, function(d){
             return d.id;
+            //change this
         })
         .enter()
         .append('g')
