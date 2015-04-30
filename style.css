@@ -29,6 +29,15 @@ html,body{
 	margin-left: -250px;
 }
 
+.container .legend{
+    left:80%;
+    top: 50%;
+    width: 140px;
+    position: relative;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
 /*------------font-------------*/
 body{
 	font-family:"Roboto",sans-serif;
@@ -45,9 +54,9 @@ h2{
     color: darkslategrey;
 }
 h3{
-     font-size: 0.7em;
+     font-size: 0.8em;
      margin: 10px 0 0px 30px;
-     color:steelblue;
+     color:darkslategrey;
  }
 
 h4{
@@ -84,47 +93,40 @@ h4{
 
 /*-----------control--------------*/
 .control .button{
-    color:#fff;
-    background: rgb(30,30,30);
+    color:#000;
+    background: #fff;
     text-align:center;
     display:block;
-    height:40px;
-    width:150px;
+    height:80px;            /*these control css elements are not working*/
     float:left;
-    line-height:40px;
-    text-decoration: none;
-}
-.control .button:hover{
-    background: rgb(0,0,0);
-    text-decoration: underline;
-}
-.control .button:first-child{
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-}
-.control .button:last-child{
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
+    top: 50%;
+    line-height:60px;
+    padding: 0 20px;
+    margin-left:30px;
 }
 
-/*------------svg-----------------*/
-.canvas .facility circle{
+.control .button:hover{
+    background: rgb(245,245,245);
+}
+
+/*------------svg - facilities-----------------*/
+.canvas .facility circle{  /*not doing anything - omit or move fill color/opacity here */
     fill:rgb(80,80,80);
     stroke:none;
     stroke-width:1.5px;
 }
 
-.canvas .facility:hover{
-    stroke-width:2px;
-}
-
 .canvas .facility:hover circle{
     fill-opacity:.5;
-    stroke: #ff32cd;
+    stroke: #00eadc;
     stroke-width:2px;
 }
 
-/*------------newly added for map------------------*/
+.canvas .facility:hover rect{   /*doesn't work*/
+    fill: #73001B;
+}
+
+/*------------map elements------------------*/
 .stroke {
     fill: none;
     stroke: red;

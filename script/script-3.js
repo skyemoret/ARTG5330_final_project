@@ -3,7 +3,7 @@ var margin = {t:270,r:100,b:200,l:150},
     width = $('.canvas').width() - margin.l - margin.r,
     height = $('.canvas').height() - margin.t - margin.b;
 
-//set us SVG drawing elements
+//set up SVG drawing elements
 var svg = d3.select('.canvas')
     .append('svg')
     .attr('width', width + margin.l + margin.r)
@@ -157,7 +157,7 @@ function draw(antarcticfacilities){
         //First, use array.map to transform the original dataset --> "antarcticfacilities"
         var nodesArray2 = antarcticfacilities.map(function(c){
                 //argument c is an element in the world array, which is a facility?
-                var xy = projectionSmall(c.lngLat);
+                var xy = projection2(c.lngLat);
                 return{
                     x:xy[0],
                     y:xy[1],
@@ -173,8 +173,8 @@ function draw(antarcticfacilities){
                     station: c.station,
                     year: c.year
                 }
-            })*/
-            ;
+            })
+            ;*/
 
     var facilities = svg.selectAll('.facility')
         .data(nodesArray, function(d){
@@ -230,7 +230,7 @@ function draw(antarcticfacilities){
     //summer (peak) population
     facilities
         .append('circle')
-        .transition().delay(1000).attr('r',function(d){
+        .transition().delay(750).attr('r',function(d){
             return scaleSize(d.pop);
         })
         .style('fill','#00bfff')
