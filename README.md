@@ -6,7 +6,7 @@ STILL TO DO:
 
 -place legend so that its position is relative to map
 
--figure out button errors, place, and make visible;link to mapped facilities
+-figure out button errors, place, and make visible; link to mapped facilities
 
 -create donut chart with winter/summer/total population % by country
 
