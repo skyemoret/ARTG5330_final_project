@@ -44,17 +44,17 @@ body{
 	font-size: 16px;
 }
 h1{
-	font-size: 1.7em;
-    margin: 30px 0 15px 30px;
-    color: black;
+	font-size: 1.9em;
+    margin: 30px 0 0px 30px;
+    color: #6d6d6d;
 }
 h2{
-	font-size:1em;
-	margin: 20px 0 0px 30px;
-    color: darkslategrey;
+	font-size:1.2em;
+	margin: 25px 0 20px 24px;
+    color: #ff4500;
 }
 h3{
-     font-size: 0.8em;
+     font-size: 1em;
      margin: 10px 0 0px 30px;
      color:darkslategrey;
  }
@@ -69,10 +69,10 @@ h4{
 .custom-tooltip{
 	padding: 8px;
 	background: none;
-    width: 350px;
+    width: 380px;
 	position: absolute;
 	visibility:visible;
-    top:120px;
+    top:100px;
     left:0px;
 }
 
@@ -83,12 +83,12 @@ h4{
 .custom-tooltip dt{
     color:darkslategrey;
     font-size: 0.7em;
-    margin: 0px 0 0px 30px;
+    margin: 0px 0 0px 24px;
 }
 .custom-tooltip dd{
     color:darkslategrey;
-    font-size: 1.0em;
-    margin: 0px 0 15px 30px;
+    font-size: 1em;
+    margin: 0px 0 15px 24px;
 }
 
 /*-----------control--------------*/
@@ -129,15 +129,25 @@ h4{
 /*------------map elements------------------*/
 .stroke {
     fill: none;
-    stroke: red;
-    stroke-width: 3px;
+    stroke: #fcfcfa;
+    stroke-width: 4px;
 }
 
 .fill {
     fill: #333; /*#222*/
 }
+.fill2 {
+    fill: #333; /*#222*/
+}
+
 
 .graticule {
+    fill: none;
+    stroke: #777;
+    stroke-width: .5px;
+    stroke-opacity: .5;
+}
+.graticule2 {
     fill: none;
     stroke: #777;
     stroke-width: .5px;
@@ -147,10 +157,12 @@ h4{
 .land {
     fill: white;
 }
+.land2 {
+    fill: white;
+}
 
 .boundary {
     fill: none;
     stroke: #fff;
     stroke-width: .5px;
 }
-

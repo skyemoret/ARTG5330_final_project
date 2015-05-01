@@ -1,9 +1,9 @@
 //set up screen parameters
-var margin = {t:100,r:100,b:200,l:150},
+var margin = {t:270,r:100,b:200,l:150},
     width = $('.canvas').width() - margin.l - margin.r,
     height = $('.canvas').height() - margin.t - margin.b;
 
-//set us SVG drawing elements
+//set up SVG drawing elements
 var svg = d3.select('.canvas')
     .append('svg')
     .attr('width', width + margin.l + margin.r)
@@ -19,6 +19,14 @@ var projection = d3.geo.azimuthalEqualArea()
     .translate([width/2,height/2])
     .precision(.1);            //what is this?
 
+//Create a 2nd azimuthal equal area (polar) projection
+var projection2 = d3.geo.azimuthalEqualArea()
+    .scale(1990)
+    .rotate([61, 65])          //([0, -90]) for north pole
+    .clipAngle(5 - 1e-3)      //first # clips to longitude
+    .translate([width/2+350,-height+200])
+    .precision(.1);            //what is this?
+
 var scaleSize = d3.scale.sqrt().range([0,40]); //for population
 
 //pre-select .custom-tooltip
@@ -27,11 +35,14 @@ var customTooltip = d3.select('.custom-tooltip');
 var path = d3.geo.path()
     .projection(projection);
 
+var path2 = d3.geo.path()
+    .projection(projection2);
+
 var graticule = d3.geo.graticule();
 
-//Start mapping the continent ---------------------------------------
+//Start mapping the larger continent ---------------------------------------
 
-svg.append("defs").append("path")       //white sphere
+svg.append("defs").append("path")       //sphere
     .datum({type: "Sphere"})
     .attr("id", "sphere")
     .attr("d", path);
@@ -49,6 +60,14 @@ svg.append("path")                  //geo-coordinates
     .attr("class", "graticule")
     .attr("d", path);
 
+
+svg.append('circle')                  //circle zoom
+    .style('fill','none')
+    .style('stroke','#fcfcfa')
+    .style('r',50);
+
+
+
 //use .json file in folder (from mbstock)
 d3.json('data/world-50m.json', function(error, world) {
     svg.insert("path", ".graticule")
@@ -65,7 +84,45 @@ d3.json('data/world-50m.json', function(error, world) {
 d3.select(self.frameElement)                //what does this do?
     .style("height", height + "px");
 
+//End  larger continent mapping---------------------------------------------
+
+//Start mapping the smaller continent ---------------------------------------
+
+svg.append("defs").append("path")       //sphere
+    .datum({type: "Sphere"})
+    .attr("id", "sphere2")
+    .attr("d", path2);
+
+svg.append("use")                   //stroke of sphere
+    .attr("class", "stroke")
+    .attr("xlink:href", "#sphere2");
+
+svg.append("use")                   //fill of sphere
+    .attr("class", "fill2")
+    .attr("xlink:href", "#sphere2");    //WHY is this drawing on top of peninsula??
+
+svg.append("path")                  //geo-coordinates
+    .datum(graticule)
+    .attr("class", "graticule2")
+    .attr("d", path2);
+
+d3.json('data/world-50m.json', function(error, world) {
+    svg.insert("path", ".graticule2")
+        .datum(topojson.feature(world, world.objects.land))
+        .attr("class", "land")
+        .attr("d", path2);
+
+    svg.insert("path", ".graticule")
+        .datum(topojson.mesh(world, world.objects.countries, function(a, b) { return a !== b; }))
+        .attr("class", "boundary")
+        .attr("d", path2);
+});
+
+d3.select(self.frameElement)                //what does this do?
+    .style("height", height + "px");
+
 //End continent mapping---------------------------------------------
+
 
 //Load Antarctic Facilities data
 d3.csv('data/antarcticfacilities.csv',parse,data);
@@ -80,6 +137,7 @@ function data (err,antarcticfacilities) {
         .domain(extent);
 
     draw(antarcticfacilities);
+    //draw2(antarcticfacilities);
 }
 
 function draw(antarcticfacilities){
@@ -102,21 +160,47 @@ function draw(antarcticfacilities){
             station: c.station,
             year: c.year
         }
-    });
+    })
+    /*function draw2(antarcticfacilities){
+        //First, use array.map to transform the original dataset --> "antarcticfacilities"
+        var nodesArray2 = antarcticfacilities.map(function(c){
+                //argument c is an element in the world array, which is a facility?
+                var xy = projection2(c.lngLat);
+                return{
+                    x:xy[0],
+                    y:xy[1],
+                    x0:xy[0],
+                    y0:xy[1],
+                    r: scaleSize(c.pop),
+                    winPop: c.winPop,
+                    pop: c.pop,
+                    id: c.id,
+                    name: c.name,
+                    country: c.country,
+                    alt: c.alt,
+                    station: c.station,
+                    year: c.year
+                }
+            })
+            ;*/
 
     var facilities = svg.selectAll('.facility')
         .data(nodesArray, function(d){
             return d.id;
+            //change this
         })
         .enter()
         .append('g')
-        .attr('class','facility');
+        .attr('class','facility')
+        .sort(function(a,b){
+            return b.pop - a.pop;
+        });
 
     facilities
         .attr('transform',function(d){
             return 'translate('+ d.x+','+ d.y+')';
         })
-        .on('mouseover',function(d){
+        .on('mouseenter',function(d){
             var table = customTooltip.select('.data-table');
             table.append('dt')
                 .html('NATIONAL PROGRAM')
@@ -135,16 +219,9 @@ function draw(antarcticfacilities){
             table.append('dd')
                 .html(d.year);
 
-            customTooltip               //write more like this one instead of table above
+            customTooltip               //write more like this one instead of table above?
                 .select("h2")
                 .html(d.station);
-                svg.append('line')
-                    .attr("x1", 636)
-                    .attr("y1", 225)
-                    .attr("x2", 1050)           //why can't this line get any longer!
-                    .attr("y2", 225)
-                    .attr("stroke-width", 1)
-                    .attr("stroke", "black");
         })
         .on('mouseleave', function(d){
             console.log("Leave)");
@@ -152,9 +229,9 @@ function draw(antarcticfacilities){
             //d3.select('.custom-tooltip')
             //    .style('visibility','hidden');
             tooltip = customTooltip.selectAll('dd').remove();
+            tooltip = customTooltip.selectAll('dt').remove();
             //tooltip.selectAll('dd').html("");
             //tooltip..selectAll('dt').html("")
-            console.log("tootl", tooltip);
 
         });
 
@@ -164,16 +241,16 @@ function draw(antarcticfacilities){
         .transition().delay(750).attr('r',function(d){
             return scaleSize(d.pop);
         })
-        .style('fill','teal')
+        .style('fill','#00bfff')
         .style('opacity',.5);
 
     //winter population
     facilities
         .append('circle')
-        .transition().delay(750).attr('r',function(d){
+        .transition().delay(500).attr('r',function(d){
             return scaleSize(d.winPop);
         })
-        .style('fill','#6a5acd')
+        .style('fill','#00008b')
         .style('opacity',.5);
 
     //any station
